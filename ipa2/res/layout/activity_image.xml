@@ -1,0 +1,48 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="300dip"
+        android:layout_height="420dip"
+        android:background="@drawable/danbo"
+        android:onClick="updateval"
+        android:tag="0" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dip"
+        android:layout_height="420dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button0"
+        android:background="@drawable/desert"
+        android:onClick="updateval"
+        android:tag="1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dip"
+        android:layout_height="420dip"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/button0"
+        android:background="@drawable/henry"
+        android:onClick="updateval"
+        android:tag="3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dip"
+        android:layout_height="420dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/tiger"
+        android:onClick="updateval"
+        android:tag="2" />
+
+</RelativeLayout>

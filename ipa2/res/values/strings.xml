@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Instabrush</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="button_text">Custom Button</string>
+    <string name="eraser">Eraser</string>
+    <string name="clear">Clear</string>
+    <string name="shape">Toggle Shape</string>
+    <string name="color">    Tool</string>
+    <string name="black">Black</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="image1">Image 1</string>
+    <string name="image2">Image 2</string>
+    <string name="image">  Image</string>
+    <string name="stroke">Stroke Width</string>
+    <string name="size">Brush Size</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="undo">Undo</string>
+    <string name="mode">Mode</string>
+    <string name="title_activity_image">InstaBrush</string>
+
+</resources>

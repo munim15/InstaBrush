@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/mode"
+        android:showAsAction="ifRoom"
+        android:title="@string/mode">
+    <menu>
+	      <group android:checkableBehavior="none">
+	          <item android:id="@+id/grayscale" 
+		          android:title="Grayscale Brush" 
+		          android:showAsAction="ifRoom"
+		          
+		           />
+		      <item android:id="@+id/blur"
+		        	android:showAsAction="ifRoom"
+		            android:title="Blur Brush"
+		             />
+		      
+		      </group>
+	      </menu>
+    </item>
+    
+
+</menu>

@@ -1,0 +1,71 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+ 	<item
+        android:id="@+id/share"
+        android:showAsAction="ifRoom"
+        android:title="@string/share"
+        android:icon="@drawable/share"/>
+    <item
+        android:id="@+id/save"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/save"
+        android:title="@string/save"/>
+    
+    
+    
+    <item android:id="@+id/size"
+          android:title="@string/size" android:showAsAction="ifRoom"
+          >
+          <menu>
+	      <group android:checkableBehavior="none">
+	          <item android:id="@+id/small" 
+		          android:title="Small" 
+		          android:showAsAction="ifRoom"
+		          
+		           />
+		      <item android:id="@+id/medium"
+		        	android:showAsAction="ifRoom"
+		            android:title="Medium"
+		             />
+		      <item android:id="@+id/large" 
+		          android:title="Large" 
+		          android:showAsAction="ifRoom"
+		          
+		           />
+		      </group>
+	      </menu>
+    </item>
+    
+    <item android:id="@+id/color"
+          android:title="@string/color" android:showAsAction="withText|ifRoom"
+          android:icon="@drawable/draw"
+          >
+	      <menu>
+	      <group android:checkableBehavior="none">
+	          <item android:id="@+id/black" 
+		          android:title="Draw" 
+		          android:showAsAction="ifRoom"
+		          android:icon="@drawable/draw"
+		          
+		           />
+		      <item android:id="@+id/red"
+		        	android:showAsAction="ifRoom"
+		            android:title="Erase"
+		            android:icon="@drawable/eraser" />
+		      <item android:id="@+id/clear" 
+		          android:title="Clear" 
+		          android:showAsAction="ifRoom"
+		          android:icon="@drawable/clear"
+		           />
+		     
+		      </group>
+	      </menu>
+      </item>
+
+</menu>
